@@ -1,0 +1,163 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "DC1";
+    src: url(../../assets/fonts/fo1.woff2);
+}
+ @font-face {
+ font-family: "DC2";
+ src: url(../../assets/fonts/fo2.woff2);
+}
+@font-face {
+    font-family: "DC3";
+    src: url(../../assets/fonts/fo3.woff2);
+}
+@font-face {
+    font-family: "DC4";
+    src: url('../../assets/fonts/fo4.woff2');
+}
+@font-face {
+    font-family: "DC5";
+    src: url(../../assets/fonts/fo5.woff2);
+}
+@font-face {
+    font-family: "DC6";
+    src: url('../../assets/fonts/fo6.woff2');
+}
+body{
+    background-color: gray;
+}
+
+.con1 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+}   
+
+.con2 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;   
+    width: 420px;
+    margin-left: 50px;
+}   
+
+.con2 h1 {
+    font: 800 40px DC4;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+
+.con2 p{
+    font: 400 20px DC2;
+    line-height: 30px;
+}
+
+
+.faixa1{
+    display: flex;
+    flex-direction: column;
+    
+
+    height: 80vh;
+    background-color: #484eed;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    background-image: url(../../assets/images/funbackg.svg);
+    background-position: -600px 0px;
+    background-size: cover;
+
+    position: relative;    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu div {
+    margin: 0px 10px;
+    font:  14px DC3;
+    
+}
+
+.bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.bot .claro{
+    background-color: white;
+    font: 22px DC3;
+    padding: 15px 30px;
+    border-radius: 40px;
+    border:none;
+    margin-top: 40px;
+    
+}
+.bot .dark{
+    background-color: rgb(0, 0, 0);
+    font: 22px DC3;
+    color: aliceblue;
+    padding: 15px 30px;
+    border-radius: 40px;
+    border:none;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.titulo{
+    font: 40px DC1;
+    width: 440px;
+    line-height: 36px;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.texto {
+    font: 20px DC2;
+    width: 800px;
+    align-items: center;
+    line-height: 35px;
+    margin-top: 40px;
+}
+
+.entrar{
+    padding:7px 16px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.esquerda{
+    position: absolute;
+    left: -400px;
+    bottom: 0px;
+   
+}
+
+.direita{
+    position: absolute;
+    right: -300px;
+    bottom: 0px;
+}
